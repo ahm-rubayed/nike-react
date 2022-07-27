@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 h1,
@@ -14,9 +15,25 @@ h6 {
     font-family: 'Bebas Neue', cursive;
 }
 
+section {
+    padding: 4rem;
+}
+
 /* Utilites  */
 .cream {
     background-color: #FFF9F4;
+}
+
+.navycolor {
+    color: #363958;
+}
+
+.btn-bg {
+    background-color: #3D4FF3;
+}
+
+.btn:hover {
+    background-color: #3d4ff3 !important;
 }
 
 /* Navbar  */
@@ -45,6 +62,12 @@ h6 {
     color: #FA804C;
 }
 
-.home-item span:nth-child(2) {
+.home-item span:nth-child(3aaa) {
     color: #363958;
+}
+
+/* Product  */
+/* casual shoe  */
+#product .card img {
+    background-color: #e9ecef;
 }
