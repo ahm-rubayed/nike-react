@@ -46,7 +46,7 @@ section {
 }
 
 .navbar-expand-lg .navbar-collapse {
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 /* Home  */
@@ -66,4 +66,9 @@ section {
 /* casual shoe  */
 #product .card img {
     background-color: #e9ecef;
+}
+
+.content img {
+    max-width: 15%;
+    max-height: auto;
 }

@@ -1,172 +1,320 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Penguin Fashion</title>
-    <link rel="shortcut icon" href="images/fav-icon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <header class="cream">
-        <!-- Navbar  -->
-        <nav class="navbar navbar-expand-lg fixed-top cream">
-            <div class="container">
-              <a class="navbar-brand" href="#home">
-                <img class="img-fluid" src="images/logo.png" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark fw-semibold" href="#product">Product</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark fw-semibold" href="#about">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark fw-semibold" href="#contact">Contact us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <!-- Navbar  -->
+      <nav class="navbar navbar-expand-lg fixed-top cream">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img class="img-fluid" src="images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark fw-semibold"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#product"
+                  >Product</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#about"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#contact"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-          <!-- Home   -->
-          <section id="home">
-            <div class="container d-flex align-items-center justify-content-between">
-                <div class="home-item">
-                    <img class="img-fluid" src="images/banner.png" alt="">
-                </div>
-                <div class="home-item">
-                    <h1>
-                        <span class="text-gold">Nike react</span>
-                        <br>
-                        <span class="navycolor">Infinity run 2</span>
-                    </h1>
-                    <p class="text-muted">This high-heeled buckled sandal is made from dark gray denim.  It has a frilly appearance.</p>
-                    <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                </div>
-            </div>
-          </section>
+      <!-- Home   -->
+      <section id="home">
+        <div
+          class="container d-flex flex-column flex-md-row align-items-center"
+        >
+          <div class="home-item order-2 order-md-1">
+            <img class="img-fluid" src="images/banner.png" alt="" />
+          </div>
+          <div class="home-item order-1 order-md-2">
+            <h1>
+              <span class="text-gold">Nike react</span>
+              <br />
+              <span class="navycolor">Infinity run 2</span>
+            </h1>
+            <p class="text-muted">
+              This high-heeled buckled sandal is made from dark gray denim. It
+              has a frilly appearance.
+            </p>
+            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"
+              ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+            >
+          </div>
+        </div>
+      </section>
     </header>
 
     <main>
-        <!-- Casual shoe  -->
-        <section id="product">
-            <div class="container">
-                <h2 class="text-uppercase navycolor mb-5">Casual shoe</h2>
-                <div class="row flex-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4">
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-1.png" class="card-img-top p-5" alt="Nike shoe">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Nike Shoe</h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-2.png" class="card-img-top p-5" alt="...">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Sneakers Skate Shoe </h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-3.png" class="card-img-top p-5" alt="...">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Sneakers Basketball shoe</h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+      <!-- Casual shoe  -->
+      <section id="product">
+        <div class="container">
+          <h2 class="text-uppercase navycolor mb-5 text-center text-md-start">Casual shoe</h2>
+          <div
+            class="row flex-md-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4"
+          >
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-1.png"
+                  class="card-img-top p-5"
+                  alt="Nike shoe"
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">Nike Shoe</h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-2.png"
+                  class="card-img-top p-5"
+                  alt="..."
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">Sneakers Skate Shoe</h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-3.png"
+                  class="card-img-top p-5"
+                  alt="..."
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">Sneakers Basketball shoe</h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Formal shoes  -->
-        <section>
-            <div class="container">
-                <h2 class="text-uppercase navycolor mb-5">Casual shoe</h2>
-                <div class="row flex-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4">
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-4.png" class="card-img-top p-5" alt="Nike shoe">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Prestige High-Cut Leather </h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-5.png" class="card-img-top p-5" alt="...">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Slip-On Formal Shoe </h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col shadow-sm rounded p-3">
-                      <div class="card h-100 border-0">
-                        <img src="images/shoe-6.png" class="card-img-top p-5" alt="...">
-                        <div class="card-body px-0">
-                          <h3 class="card-title navycolor">Chelsea Formal Shoe</h3>
-                          <p class="card-text text-muted">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h2 class="text-gold">269$</h2>
-                            <a href="#" class="btn btn-bg text-white text-uppercase px-3 py-2"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+      <!-- Formal shoes  -->
+      <section>
+        <div class="container">
+          <h2 class="text-uppercase navycolor mb-5 text-center">Casual shoe</h2>
+          <div
+            class="row flex-md-nowrap row-cols-1 row-cols-md-2 row-cols-lg-3 gap-4"
+          >
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-4.png"
+                  class="card-img-top p-5"
+                  alt="Nike shoe"
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">
+                    Prestige High-Cut Leather
+                  </h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-5.png"
+                  class="card-img-top p-5"
+                  alt="..."
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">Slip-On Formal Shoe</h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col shadow-sm rounded p-3">
+              <div class="card h-100 border-0">
+                <img
+                  src="images/shoe-6.png"
+                  class="card-img-top p-5"
+                  alt="..."
+                />
+                <div class="card-body px-0">
+                  <h3 class="card-title navycolor">Chelsea Formal Shoe</h3>
+                  <p class="card-text text-muted">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-gold">269$</h2>
+                  <a
+                    href="#"
+                    class="btn btn-bg text-white text-uppercase px-3 py-2"
+                    ><i class="fa-solid fa-cart-shopping"></i> Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="container text-center">
-            <div class="row row-cols-3">
-              <div class="col border">Column</div>
-              <div class="col border">Column</div>
-              <div class="col border">Column</div>
-              <div class="col border">Column</div>
+      <section class="container">
+        <div class="d-flex align-items-center justify-content-center flex-column flex-lg-row gap-5">
+          <div class="order-2 order-md-1">
+            <div class="content">
+              <div class="d-flex flex-column text-center align-items-center gap-3 shadow my-4 py-3 px-5 rounded h-100">
+                <img class="img-fluid" src="images/icons/icon-1.png" alt="" />
+                <div class="item">
+                  <h3>Find the perfect fit</h3>
+                  <p>
+                    Everybody is different, which is why we offer styles for
+                    every body.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center text-center gap-3 shadow my-4 py-3 px-5 rounded h-100">
+                <img class="img-fluid" src="images/icons/icon-2.png" alt="" />
+                <div class="item">
+                  <h3>Free Exchanges</h3>
+                  <p>
+                    One of the many reasons you can shop with peace of mind.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center text-center gap-3 shadow my-4 py-3 px-5 rounded h-100">
+                <img class="img-fluid" src="images/icons/icon-3.png" alt="" />
+                <div class="item">
+                  <h3>Contact Our Seller</h3>
+                  <p>
+                    They are here to help you. That's quite literally what we
+                    pay them for.
+                  </p>
+                </div>
+              </div>
             </div>
-          </section>
+          </div>
+          <div class="order-1 order-md-2">
+            <img class="img-fluid" src="images/icons/banner-2.png" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="text-center mb-3">
+      ©2022 Panda Commerce | All rights reserved Rubayed Ahmed.
+    </footer>
     <!-- Font awesome kits  -->
-    <script src="https://kit.fontawesome.com/a563e0cd61.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a563e0cd61.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- JS  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
