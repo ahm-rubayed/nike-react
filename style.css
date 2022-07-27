@@ -13,3 +13,38 @@ h5,
 h6 {
     font-family: 'Bebas Neue', cursive;
 }
+
+/* Utilites  */
+.cream {
+    background-color: #FFF9F4;
+}
+
+/* Navbar  */
+.navbar-brand img {
+    max-width: 30%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-basis: 50%;
+}
+
+/* Home  */
+#home {
+    padding: 5rem 0;
+}
+
+.home-item img {
+    max-width: 80%;
+}
+
+.home-item h1 {
+    font-size: 3.5rem;
+}
+
+.home-item span:first-child {
+    color: #FA804C;
+}
+
+.home-item span:nth-child(2) {
+    color: #363958;
+}
