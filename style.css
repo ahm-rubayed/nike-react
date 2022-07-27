@@ -28,6 +28,10 @@ section {
     color: #363958;
 }
 
+.text-gold {
+    color: #FA804C;
+}
+
 .btn-bg {
     background-color: #3D4FF3;
 }
@@ -56,14 +60,6 @@ section {
 
 .home-item h1 {
     font-size: 3.5rem;
-}
-
-.home-item span:first-child {
-    color: #FA804C;
-}
-
-.home-item span:nth-child(3aaa) {
-    color: #363958;
 }
 
 /* Product  */
